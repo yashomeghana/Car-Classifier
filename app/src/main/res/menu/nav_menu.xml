@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/nav_compare"
+            android:icon="@drawable/baseline_compare_24"
+            android:title="Compare"/>
+
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/baseline_directions_car_24"
+            android:title="Categories"/>
+
+        <item
+            android:id="@+id/nav_review"
+            android:icon="@drawable/baseline_reviews_24"
+            android:title="Review"/>
+
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/baseline_newspaper_24"
+            android:title="News"/>
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/baseline_history_24"
+            android:title="History"/>
+
+        <item
+            android:id="@+id/nav_wishlist"
+            android:icon="@drawable/baseline_shopping_cart_24"
+            android:title="Wishlist"/>
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/baseline_account_circle_24"
+                android:title="Profile"/>
+
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/baseline_comment_24"
+                android:title="FAQ"/>
+        </menu>
+
+    </item>
+
+</menu>
